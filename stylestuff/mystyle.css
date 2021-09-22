@@ -1,0 +1,165 @@
+.mytitle img {
+    width: 40px;  
+    float:right;
+    padding-top: 1.5%;
+    padding-right: 1%;
+
+}
+
+.mytitle {
+    grid-area: banner;
+    border-color: black;
+    border-width: 10px;
+    border-style: double;
+
+    
+}
+
+.mytitle h1 {
+float: right;
+padding-right: 30%;
+}
+
+.mybody {
+    grid-area: body;
+    border-style: solid;  
+    border-color: #d2ad32;
+    padding-left: 3%;
+    padding-right: 3%;
+  
+
+}
+
+
+.mybody p {
+    font-size: x-large;
+}
+
+.biggerimage {
+grid-area: image;
+padding-left: 100px;
+}
+
+
+.box1 {
+    grid-area: one;
+    border-style: solid;
+    border-color: #d2ad32 ;
+    padding: 4%;
+}
+
+.box2 {
+    grid-area: two;
+    border-style: solid;
+    border-color: #d2ad32 ;
+    padding: 4%;
+}
+
+.box3 {
+    grid-area: three;
+    border-style: solid;
+    border-color: #d2ad32 ;
+    padding: 4%;
+}
+
+.box4 {
+    grid-area: four;
+    border-style: solid;
+    border-color: #d2ad32 ;
+    padding: 4%;
+}
+
+.box5 {
+    grid-area: five;
+    border-style: solid;
+    border-color: #d2ad32 ;
+    padding: 4%;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.nothing {
+    grid-area: nothing;
+    color: white;
+}
+
+.agree {
+    grid-area: agree;
+
+
+}
+
+.agree p {
+    padding-top: 5%;
+    border-style: solid;
+    font-size:140%;
+    border-color:#d2ad32 ;
+
+}
+
+.extra {
+    grid-area: extra;
+}
+
+.extra p {
+    padding-top: 5%;
+    border-style: solid;
+    font-size:140%;
+    border-color:#d2ad32 ;
+}
+
+.con {
+    grid-area: con;
+}
+
+.con p {
+    padding-top: 5%;
+    border-style: solid;
+    font-size:140%;
+    border-color:#d2ad32 ;
+}
+.open {
+    grid-area: ope;
+}
+
+.open p {
+    padding-top: 5%;
+    border-style: solid;
+    font-size:140%;
+    border-color:#d2ad32 ;
+}
+
+.neuro {
+    grid-area: neuro;
+}
+
+.neuro p {
+    padding-top: 5%;
+    border-style: solid;
+    font-size:140%;
+    border-color:#d2ad32 ;
+}
+
+.nothin {
+    grid-area: nothin;
+    color: white;
+    
+}
+.wrapper {
+display: grid;
+grid-template-columns:19vw 20vw 19vw 20vw 19vw ;
+grid-template-rows: 15vh 2vh 60vh 10vh 30vh 0.5vh 3vh ;
+grid-template-areas: "banner banner banner banner banner"
+                      "nothing nothing nothing nothing nothing"
+                       "body body body image image"
+                       "agree extra con ope neuro"
+                       "one two three four five "
+                       "nothin nothin nothin nothin nothin "
+                       "footer footer footer footer footer"
+}
