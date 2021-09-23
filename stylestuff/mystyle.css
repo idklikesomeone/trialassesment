@@ -100,6 +100,7 @@ padding-left: 100px;
     border-style: solid;
     font-size:140%;
     border-color:#d2ad32 ;
+    padding-left: 2%;
 
 }
 
@@ -112,6 +113,7 @@ padding-left: 100px;
     border-style: solid;
     font-size:140%;
     border-color:#d2ad32 ;
+    padding-left: 2%;
 }
 
 .con {
@@ -123,6 +125,7 @@ padding-left: 100px;
     border-style: solid;
     font-size:140%;
     border-color:#d2ad32 ;
+    padding-left: 2%;
 }
 .open {
     grid-area: ope;
@@ -133,6 +136,7 @@ padding-left: 100px;
     border-style: solid;
     font-size:140%;
     border-color:#d2ad32 ;
+    padding-left: 2%;
 }
 
 .neuro {
@@ -144,6 +148,7 @@ padding-left: 100px;
     border-style: solid;
     font-size:140%;
     border-color:#d2ad32 ;
+    padding-left: 2%;
 }
 
 .nothin {
