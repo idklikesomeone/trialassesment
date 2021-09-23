@@ -1,0 +1,12 @@
+.banner {
+    border-color: black;
+    border-width: 10px;
+    border-style: double;
+}
+
+.banner h1 {
+   padding-left: 45%;
+
+
+}
+
