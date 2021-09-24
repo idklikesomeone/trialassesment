@@ -1,3 +1,6 @@
+
+/* styling the image in the title  */
+
 .mytitle img {
     width: 40px;  
     float:right;
@@ -6,19 +9,25 @@
 
 }
 
+/* styling the title border */
+
 .mytitle {
     grid-area: banner;
     border-color: black;
     border-width: 10px;
     border-style: double;
 
-    
 }
+
+
+    /* styling the actual text  */
 
 .mytitle h1 {
 float: right;
 padding-right: 30%;
 }
+
+/* styling the body border and format */
 
 .mybody {
     grid-area: body;
@@ -31,15 +40,21 @@ padding-right: 30%;
 }
 
 
+/* styling the body text  */
+
 .mybody p {
     font-size: x-large;
 }
+
+
+/* styling the big image  */
 
 .biggerimage {
 grid-area: image;
 padding-left: 100px;
 }
-
+/* 
+styling the description boxes of the traits  */
 
 .box1 {
     grid-area: one;
@@ -76,6 +91,8 @@ padding-left: 100px;
     padding: 4%;
 }
 
+/* footer styling  */
+
 .footer {
     grid-area: footer;
     background-color: black;
@@ -84,16 +101,29 @@ padding-left: 100px;
 
 }
 
+/* I didn't know how to include empty spaces between sections so I added white text  */
+
 .nothing {
     grid-area: nothing;
     color: white;
+
 }
+
+.nothin {
+    grid-area: nothin;
+    color: white;
+    
+}
+
+/* wrapper stuff  */
 
 .agree {
     grid-area: agree;
 
 
 }
+
+/* styling the links  */
 
 .agree p {
     padding-top: 5%;
@@ -151,11 +181,9 @@ padding-left: 100px;
     padding-left: 2%;
 }
 
-.nothin {
-    grid-area: nothin;
-    color: white;
-    
-}
+
+/* the grid  */
+
 .wrapper {
 display: grid;
 grid-template-columns:19vw 20vw 19vw 20vw 19vw ;

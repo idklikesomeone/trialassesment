@@ -1,14 +1,20 @@
+/* styling the banner  */
+
+
 .banner {
     border-color: black;
     border-width: 10px;
     border-style: double;
 }
 
+/* styling the banner text  */
 
 .banner h1 {
    padding-left: 45%;
 
 }
+
+/* styling the table  */
 
 table, td , th{
 
@@ -34,6 +40,8 @@ table, td , th{
   }
 
 
+/* the grid  */
+
 .wrapper {
     display: grid;
     grid-template-columns: 20vw 5vh 156vh;
@@ -41,6 +49,8 @@ table, td , th{
     grid-template-areas: "nav nothing body" "noth nothing body" ;
 
 }
+
+/* Again, I didn't know how to add empty spaces  */
 
 .nothing {
     grid-area: nothing;
@@ -68,6 +78,8 @@ table, td , th{
     color: white;
 }
 
+/* navigation bar styling  */
+
 .nav {
     grid-area: nav;
     border-style: solid;  
@@ -76,6 +88,7 @@ table, td , th{
 
 }
 
+/* the words inside the navigation bar styling inspired by inclass work  */
 
 .nav p{
     border-style: solid;
@@ -89,7 +102,7 @@ table, td , th{
 }
 
 
-
+/* the styling for the body  */
 
 .body {
     grid-area: body;
@@ -99,3 +112,11 @@ table, td , th{
     padding-right: 3%;
 }
 
+/* footer styling which is the same across all  */
+
+.footer {
+  
+    background-color: black;
+    color: white;
+    text-align: center;
+}
