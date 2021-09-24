@@ -1,0 +1,101 @@
+.banner {
+    border-color: black;
+    border-width: 10px;
+    border-style: double;
+}
+
+
+.banner h1 {
+   padding-left: 45%;
+
+}
+
+table, td , th{
+
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: thick;
+    border-color: #d2ad32 ;
+    padding: 1%;
+    text-align: center;
+
+  }
+
+  
+  ul.a {
+    list-style-type: circle;
+  
+  }
+
+  ul.b {
+    list-style-type: circle;
+  
+
+  }
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 20vw 5vh 156vh;
+    grid-template-rows: 47vh 75vh;
+    grid-template-areas: "nav nothing body" "noth nothing body" ;
+
+}
+
+.nothing {
+    grid-area: nothing;
+}
+
+.nothing p {
+    color: white;
+}
+
+.nothin p {
+    color: white;
+   font-size: xx-small;
+}
+
+.nothi {
+    color: white;
+    font-size: xx-small;
+}
+
+.noth {
+    grid-area: noth;
+}
+
+.noth p {
+    color: white;
+}
+
+.nav {
+    grid-area: nav;
+    border-style: solid;  
+    border-color: #d2ad32;
+    text-align: center;
+
+}
+
+
+.nav p{
+    border-style: solid;
+    border-width: thin;
+    border-color:#d2ad32 ;
+    width: 70%;
+    width : 50%;
+    padding : 10px;
+    margin : 0 auto;
+    margin-bottom : 10px;
+}
+
+
+
+
+.body {
+    grid-area: body;
+    border-style: solid;  
+    border-color: #d2ad32;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
